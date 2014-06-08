@@ -1,0 +1,63 @@
+/* general */
+html,body{margin:0;padding:0;} /* Common margin & padding for all browsers */
+html{overflow-y:scroll;} /* Always display the scrollbar, avoid flipping pages */
+
+html{background:#fff;} /* Background color for whole browser window */
+body{background:#fff;} /* Background color for the body-part of the browser window */ 
+
+body{font-family:Georgia, serif;color:#333;} /* Default font for whole page */
+
+h1{text-transform:uppercase;} /* Transform all letter to uppercase. */
+h1,h2{border-bottom:1px solid #dddddd;} /* Put border below header h1 and h2 */
+
+img {border:0;} /* No border around linked images */
+
+/* html5 elements*/
+header,footer,nav,article,section,aside,figure,figcaption,output{display:block;}
+
+
+div#content{overflow:auto;} /* clearer-fix */
+
+/* a links */
+a {  color: inherit; outline:0;}
+a:link    { }
+a:visited { }
+a:hover   { text-decoration:none; color:#5C0A0A; }
+a:active  { }
+
+/* Misc classes*/
+.right {float:right;}
+.left {float:left;}
+.justify, 
+.justify-para p {text-align:justify;}
+.center { text-align:center;}
+.specifikblue { background:#338BEE;}
+.specifikbluecolor { color:#338BEE;}
+.borderradius { border-radius:5px;}
+.black { color:#000000;}
+.white { color:#ffffff;}
+
+.italic {font-style:italic;}
+.bold {font-weight:bold;}
+
+.quiet { color: #666; }
+.loud { color: #000; }
+.overflow{overflow:auto;}
+
+.small { font-size: .8em; margin-bottom: 1.875em; line-height: 1.875em; }
+.large { font-size: 1.2em; line-height: 2.5em; margin-bottom: 1.25em; }
+.hide { display: none; }
+
+/* Use a .box to create a padded box inside a column. */
+.box {
+  padding: 1.5em;
+  margin-bottom: 1.5em;
+  background: #F2F2F2;
+}
+
+
+
+blockquote.code {font-family:monospace;white-space:pre;background:#F2F2F2;
+margin-left:0;margin-right:0;padding-left:0.5em;
+border:1px solid #999;overflow:auto;
+}

@@ -1,0 +1,87 @@
+/** --------------------------------------------------------------
+ * Icons
+ *
+ */
+ul.icons {
+  margin: 0;
+  margin-bottom: 1.375em;
+  padding: 0;
+  list-style: none;
+}
+
+ul.icons li {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+div#navbarWrapper {
+	background: rgb(69,72,77); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(69,72,77,1)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* W3C */
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+div.pages {
+	margin-bottom: 15px;
+}
+
+div.pages a {
+	border: 1px solid #ccc;
+	text-decoration:none;
+	padding: 5px 5px 5px 5px;
+	border-radius: 5px;
+}
+
+div.pages a:hover {
+	background: #ccc;
+}
+
+div#navbar {
+	width:950px;
+	margin: auto;
+	padding-left:20px;
+}
+
+
+/**
+ *  --------------------------------------------------------------
+ * Navbar: Plain style, nothing special
+ *
+ */
+
+ul.nb-plain {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.nb-plain li {
+  padding: 0 0 0 1em;
+  margin: 0;
+  display: inline;
+}
+
+ul.nb-plain li:first-child {
+  padding-left: 0;
+}
+
+ul.nb-plain li.selected a {
+  border-bottom: 1px solid #fff;
+}    
+
+ul.nb-plain a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}  
+
+ul.nb-plain a:hover {
+  border-bottom: 1px solid #999;
+  text-decoration: none;
+}

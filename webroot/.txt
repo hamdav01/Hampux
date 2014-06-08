@@ -1,0 +1,1 @@
+INSERT INTO game VALUES(Array->title,Array->yearArray->image,Array->youtubelink,Array->content,Array->price)
