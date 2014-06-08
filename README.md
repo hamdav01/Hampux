@@ -56,7 +56,7 @@ v1.0.0 (2013-06-28)
  .  
 ..:
 
-Copyright (c) 2013 Mikael Roos
+Copyright (c) 2014 Hampus Davidsson
 
 
 
