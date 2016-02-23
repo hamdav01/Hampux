@@ -3,7 +3,7 @@ Hampux-base
 
 A webbtemplate / boilerplate for smaller websites and webbapplications using PHP.
 
-Built by Mikael Roos and Hampus Davidsson.
+Built by Hampus Davidsson.
 
 License 
 ------------------
