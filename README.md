@@ -3,7 +3,7 @@ Hampux-base
 
 A webbtemplate / boilerplate for smaller websites and webbapplications using PHP.
 
-Built by Hampus Davidsson.
+Built by Mikael Roos and Hampus Davidsson.
 
 License 
 ------------------
@@ -31,12 +31,12 @@ History
 -----------------------------------
 
 
-v1.0.3 (2015-11-22)
+v1.0.3 (2013-11-22)
 
 * Naming of session in `webroot/config.php` allows only alphanumeric characters.
 
 
-v1.0.2 (2015-09-23)
+v1.0.2 (2014-09-23)
 
 * Needs to define the HAMPUX_INSTALL path before using it. v1.0.1 did not work.
 
